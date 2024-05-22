@@ -1,11 +1,10 @@
-# Debian package to activate CoDeSys [WAGO] libraries on the Edge Computer
-
-<p align="center">
+<p align="left">
 <img src="images/wago.png"
      alt="wago logo"
      title="wago logo"/>
 </p>
 
+# Debian package to activate CoDeSys [WAGO] libraries on the Edge Computer
 - Debian Package for Edge PC equals 752-94xx<br><br>
 
 1. open ssh connection, use putty or integtratet terminal inside cockpit<br>

@@ -28,5 +28,10 @@
 
 <H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>
 <br>
-
+</p>
+<p align="left">
+<img src="images/CAA.jpg"
+     alt="CAA"
+     title="CAA"/>
+</p>
 

@@ -23,7 +23,8 @@
 6.  check installation. apt list | grep vendor-check<br>
 7.  check service is running: systemctl status vendor_daemon.service<br>
 8.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
-9.  (re)start your container via CoDeSys IDE<br> 
+9.  (re)start your container via CoDeSys IDE<br>
+10.  dowload CoDeSys library and install inside your IDE
 
 <H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>
 <br>

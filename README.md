@@ -21,7 +21,7 @@
 3b. if not, download from repo via Laptop and copy package via scp to the home folder<br>
 4.  install package: apt-get install /home/vendorcheck.deb  OR  dpkg -i vendorcheck.deb<br>
 5.  check installation: apt list | grep vendorcheck<br>
-6.  check service is running: systemctl status vendor_daemon.service<br>
+6.  check service is running: <H4>systemctl status vendor_daemon.service</H4><br>
 7.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
 8.  (re)start your container via CoDeSys IDE<br>
 9.  dowload CoDeSys library and install inside your IDE<br>

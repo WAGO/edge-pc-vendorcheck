@@ -7,7 +7,7 @@
 - Debian Package for Edge PC equals 752-94xx<br><br>
 
 </p>
-<p align="right">
+<p align="left">
 <img src="images/Edge-PC.jpg"
      alt="Edge-PC"
      title="Edge-PC"/>

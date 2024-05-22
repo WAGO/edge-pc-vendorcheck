@@ -15,9 +15,9 @@
 - Howto use<br><br>
 
 1.  open ssh connection, use putty or integtratet terminal inside cockpit<br>
-2.  goto home folder: <pre><code>cd /home</pre></code<br>
+2.  goto home folder: cd /home<<br>
 3.  if you device had internet access, download the package direct to your device:<br>
-3a. <pre><code>wget https://github.com/WAGO/ege-pc-vendorcheck/blob/main/debian%20package/vendorcheck.deb</pre></code<br>
+3a. wget https://github.com/WAGO/ege-pc-vendorcheck/blob/main/debian%20package/vendorcheck.deb<br>
 3b. if not, download from repo via Laptop and copy package via scp to the home folder<br>
 5.  install package: apt-get install /home/vendor-check.deb  OR  dpkg -i vendorcheck.deb<br>
 6.  check installation. apt list | grep vendor-check<br>

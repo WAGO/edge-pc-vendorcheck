@@ -24,7 +24,7 @@
 7. mount "tmp" folder to your docker container: /tmp:/tmp<br>
 8. (re)start your container via CoDeSys IDE<br> 
 
-<H5>Take care that you have to mount /tmp:/tmp to the Docker container.</H5>
+<H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>
 <br>
 
 

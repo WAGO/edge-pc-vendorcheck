@@ -15,7 +15,7 @@
 - Howto use<br><br>
 
 1.  open ssh connection, use putty or integtratet terminal inside cockpit<br>
-2.  goto home folder: cd /home<<br>
+2.  goto home folder: <H5>cd /home</H5><br>
 3.  if you device had internet access, download the package direct to your device:<br>
 3a. <H5>wget https://github.com/WAGO/ege-pc-vendorcheck/blob/main/debian%20package/vendorcheck.deb</H5><br>
 3b. if not, download from repo via Laptop and copy package via scp to the home folder<br>

@@ -1,9 +1,9 @@
 # Debian package to activate CoDeSys [WAGO] libraries on the Edge Computer
 
 <p align="center">
-<img src="images/dashboard.png"
-     alt="Node-RED Energy Dashboard"
-     title="Node-RED Energy Dashboard"/>
+<img src="images/wago.png"
+     alt="wago logo"
+     title="wago logo"/>
 </p>
 
 - Debian Package for Edge PC equals 752-94xx<br><br>

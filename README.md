@@ -20,11 +20,11 @@
 3a. wget https://github.com/WAGO/ege-pc-vendorcheck/blob/main/debian%20package/vendorcheck.deb<br>
 3b. if not, download from repo via Laptop and copy package via scp to the home folder<br>
 4.  install package: apt-get install /home/vendorcheck.deb  OR  dpkg -i vendorcheck.deb<br>
-5.  check installation. apt list | grep vendorcheck<br>
+5.  check installation: apt list | grep vendorcheck<br>
 6.  check service is running: systemctl status vendor_daemon.service<br>
 7.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
 8.  (re)start your container via CoDeSys IDE<br>
-9. dowload CoDeSys library and install inside your IDE<br>
+9.  dowload CoDeSys library and install inside your IDE<br>
 
 <H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>
 <br>

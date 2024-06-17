@@ -15,8 +15,8 @@
 - Howto use<br><br>
 
 1.  open ssh connection, use putty or integtratet terminal inside cockpit<br>
-1a. on older devices <FW4 please install "sudo":<pre><code>apt-get install sudo</code></pre>
-2.  goto home folder: cd /home<br>
+1a. on older devices <FW4 please install "sudo":<pre><code>apt-get install sudo</code></pre><br>
+2.  goto home folder: <pre><code>cd /home</code></pre><br>
 3.  if you device had internet access, download the package direct to your device:<br>
 3a. wget https://github.com/WAGO/edge-pc-vendorcheck/raw/main/debian%20package/vendorcheck.deb<br>
 3b. if not, download from repo via Laptop and copy package via scp to the home folder<br>

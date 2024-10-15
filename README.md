@@ -15,7 +15,7 @@
 </p>
 - Howto use<br><br>
 
-1.  open ssh connection, use putty or integratet terminal inside cockpit<br>
+<H4>1.</H4>  open ssh connection, use putty or integratet terminal inside cockpit<br>
 1a. on older devices <FW4 please install "sudo":<pre><code>apt-get install sudo</code></pre>
 2.  goto home folder: <pre><code>cd /home</code></pre>
 3.  if you device had internet access, download the package direct to your device:<br>

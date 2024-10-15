@@ -25,12 +25,12 @@
 5.  check installation: <pre><code>apt list | grep vendorcheck</code></pre><br>
 6.  check service is running: <pre><code>systemctl status vendor_daemon.service</code></pre><br>
 
-- In case of use a virtual runtime:<br>
-7.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
-7a.  (re)start your container via CoDeSys IDE<br>
-- In case of use a nativ runtime:<br>
-8. <pre><code>/etc/init.d/codesyscontrol restart</code></pre><br>
-9.  dowload CoDeSys library and install inside your IDE<br>
+7. In case of use a virtual runtime:<br>
+7a.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
+7b.  (re)start your container via CoDeSys IDE<br>
+8. In case of use a nativ runtime:<br>
+8a. <pre><code>/etc/init.d/codesyscontrol restart</code></pre><br>
+9.  dowload CoDeSys library from this repo and install inside your IDE<br>
 
 <H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>
 <br>

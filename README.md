@@ -20,7 +20,7 @@
 2.  goto home folder: <pre><code>cd /home</code></pre>
 3.  if you device had internet access, download the package direct to your device:<br>
 3a. <pre><code>wget https://github.com/WAGO/edge-pc-vendorcheck/raw/main/debian%20package/vendorcheck.deb</code></pre>
-3b. if not, download from repo via Laptop and copy package via scp to the home folder<br><br>
+3b. if not, download from repo via Laptop and copy package via scp to the home folder<br>
 4.  install package: <pre><code>apt-get install /home/vendorcheck.deb  OR  dpkg -i vendorcheck.deb</code></pre>
 5.  check installation: <pre><code>apt list | grep vendorcheck</code></pre>
 6.  check service is running: <pre><code>systemctl status vendor_daemon.service</code></pre>

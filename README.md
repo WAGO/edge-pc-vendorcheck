@@ -28,11 +28,7 @@
 7. In case of use a virtual runtime:<br>
 7a.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
 7b.  (re)start your container via CoDeSys IDE<br>
-8. In case of use a nativ runtime:<br>
-8a. <pre><code>/etc/init.d/codesyscontrol restart</code></pre>
-9.  dowload CoDeSys library from this repo and install inside your IDE<br>
 
-<H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>
 <br>
 </p>
 <p align="left">
@@ -40,4 +36,9 @@
      alt="CAA"
      title="CAA"/>
 </p>
+
+8. In case of use a nativ runtime:<br>
+8a. <pre><code>/etc/init.d/codesyscontrol restart</code></pre>
+9.  dowload CoDeSys library from this repo and install inside your IDE<br>
+
 

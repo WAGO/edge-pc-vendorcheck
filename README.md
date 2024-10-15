@@ -29,7 +29,6 @@
 7a.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
 7b.  (re)start your container via CoDeSys IDE<br>
 
-<br>
 </p>
 <p align="left">
 <img src="images/CAA.jpg"

@@ -24,8 +24,12 @@
 4.  install package: <pre><code>apt-get install /home/vendorcheck.deb  OR  dpkg -i vendorcheck.deb</code></pre><br>
 5.  check installation: <pre><code>apt list | grep vendorcheck</code></pre><br>
 6.  check service is running: <pre><code>systemctl status vendor_daemon.service</code></pre><br>
+
+- In case of use a virtual runtime:<br><br>
 7.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
-8.  (re)start your container via CoDeSys IDE<br>
+7a.  (re)start your container via CoDeSys IDE<br>
+- In case of use a nativ runtime:<br><br>
+8. <pre><code>/etc/init.d/codesyscontrol restart</code></pre><br>
 9.  dowload CoDeSys library and install inside your IDE<br>
 
 <H4>Take care that you have to mount /tmp:/tmp to the Docker container.</H4>

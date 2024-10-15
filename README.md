@@ -40,5 +40,8 @@
 8a. restart your runtime: <pre><code>/etc/init.d/codesyscontrol restart</code></pre>
 9.  dowload CoDeSys library from this repo and install inside your IDE<br>
 https://github.com/WAGO/edge-pc-vendorcheck/tree/main/codesys%20library
+<br><br>
+- If you like to uninstall the package:<br>
+<pre><code>dpkg -r vendorcheck</code></pre>
 
 

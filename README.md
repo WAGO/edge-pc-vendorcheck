@@ -39,7 +39,7 @@
 8. In case of use a nativ runtime<br>
 8a. Restart your runtime: <pre><code>/etc/init.d/codesyscontrol restart</code></pre>
 9.  Dowload CoDeSys library from this repo and install inside your IDE<br>
-https://github.com/WAGO/edge-pc-vendorcheck/tree/main/codesys%20library <br><br
+https://github.com/WAGO/edge-pc-vendorcheck/tree/main/codesys%20library <br>
 10. Use the library inside your CoDeSys project
 <br><br>
 - If you like to uninstall the package:<br>

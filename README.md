@@ -27,6 +27,7 @@
 
 7. In case of use a virtual runtime<br>
 7a.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
+<pre><code>/tmp:/tmp</code></pre>
 7b.  (re)start your container via CoDeSys IDE<br>
 
 </p>

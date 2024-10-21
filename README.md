@@ -27,7 +27,7 @@
 
 7. In case of use a virtual runtime<br>
 7a.  Mount "tmp" folder to your docker container: /tmp:/tmp,<br>
-7b.  (re)start your container via CoDeSys IDE<br>
+7b.  (Re)start your container via CoDeSys IDE<br>
 
 </p>
 <p align="left">

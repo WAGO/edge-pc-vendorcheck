@@ -26,7 +26,7 @@
 6.  Check service is running: <pre><code>systemctl status vendor_daemon.service</code></pre>
 
 7. In case of use a virtual runtime<br>
-7a.  Mount "tmp" folder to your docker container: <H4>/tmp:/tmp,</H4><br>
+7a.  Mount "tmp" folder to your docker container: /tmp:/tmp,<br>
 7b.  (re)start your container via CoDeSys IDE<br>
 
 </p>

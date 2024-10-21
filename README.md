@@ -26,8 +26,7 @@
 6.  check service is running: <pre><code>systemctl status vendor_daemon.service</code></pre>
 
 7. In case of use a virtual runtime<br>
-7a.  mount "tmp" folder to your docker container: /tmp:/tmp<br>
-<pre><code>/tmp:/tmp,</code></pre>
+7a.  mount "tmp" folder to your docker container: /tmp:/tmp,<br>
 7b.  (re)start your container via CoDeSys IDE<br>
 
 </p>
@@ -41,6 +40,7 @@
 8a. restart your runtime: <pre><code>/etc/init.d/codesyscontrol restart</code></pre>
 9.  dowload CoDeSys library from this repo and install inside your IDE<br>
 https://github.com/WAGO/edge-pc-vendorcheck/tree/main/codesys%20library
+10. use the library inside your CoDeSys project
 <br><br>
 - If you like to uninstall the package:<br>
 <pre><code>dpkg -r vendorcheck</code></pre>
